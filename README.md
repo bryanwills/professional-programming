@@ -35,6 +35,8 @@
     - [Compilers](#compilers)
     - [Configuration](#configuration)
     - [Databases](#databases)
+      - [NoSQL](#nosql)
+      - [Postgres](#postgres)
     - [Data formats](#data-formats)
     - [Data science/data engineering](#data-sciencedata-engineering)
     - [Debugging](#debugging)
@@ -636,7 +638,6 @@ See also the SQL section.
 
 - [A plain English introduction to CAP Theorem](http://ksat.me/a-plain-english-introduction-to-cap-theorem)
 - [PACELC theorem](https://en.wikipedia.org/wiki/PACELC_theorem): "in case of network partitioning (P) in a distributed computer system, one has to choose between availability (A) and consistency (C) (as per the CAP theorem), but else (E), even when the system is running normally in the absence of partitions, one has to choose between latency (L) and consistency (C)."
-- [Safe Operations For High Volume PostgreSQL](https://www.braintreepayments.com/blog/safe-operations-for-high-volume-postgresql/) (this is for PostgreSQL but works great for other DBs as well).
 - [Zero downtime database migrations](https://blog.rainforestqa.com/2014-06-27-zero-downtime-database-migrations/) (code examples are using Rails but this works great for any programming language)
 - [Algorithms Behind Modern Storage Systems](https://queue.acm.org/detail.cfm?id=3220266), ACM Queue
 - [Let's Build a Simple Database](https://cstack.github.io/db_tutorial/)
@@ -647,11 +648,7 @@ See also the SQL section.
 - [Course introduction — MySQL for Developers](https://planetscale.com/learn/courses/mysql-for-developers/introduction/course-introduction), PlanetScale
 - [How Query Engines Work](https://howqueryengineswork.com/00-introduction.html)
 
-Exercises:
-
-- [PostgreSQL exercises](https://pgexercises.com/)
-
-NoSQL:
+#### NoSQL
 
 - [NOSQL Patterns](http://horicky.blogspot.nl/2009/11/nosql-patterns.html)
 - [NoSQL Databases: a Survey and Decision Guidance](https://medium.baqend.com/nosql-databases-a-survey-and-decision-guidance-ea7823a822d#.9fe79qr90)
@@ -660,6 +657,12 @@ NoSQL:
   - [From SQL to NoSQL](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/SQLtoNoSQL.html)
   - [NoSQL Design for DynamoDB](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-general-nosql-design.html)
 - [Redis Explained](https://architecturenotes.co/redis/)
+
+#### Postgres
+
+- [Safe Operations For High Volume PostgreSQL](https://www.braintreepayments.com/blog/safe-operations-for-high-volume-postgresql/) (this is for PostgreSQL but works great for other DBs as well).
+- [Transaction Isolation in Postgres, explained](https://www.thenile.dev/blog/transaction-isolation-postgres)
+- [PostgreSQL exercises](https://pgexercises.com/)
 
 ### Data formats
 
