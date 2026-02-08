@@ -2032,6 +2032,14 @@ Books:
 
 - 📖 [Building Microservices](https://www.amazon.com/Building-Microservices-Designing-Fine-Grained-Systems/dp/1491950358), Sam Newman (quite complete discussion of microservices)
 - 📖 [Designing Data-Intensive Applications](https://dataintensive.net/)
+- 📖 [Building Secure and Reliable Systems](https://google.github.io/building-secure-and-reliable-systems/raw/toc.html), Google, (free online). Very complete book.
+  - Design for security & reliability
+  - Design tradeoffs
+  - Design for least privilege
+  - Design for understandability
+  - Design for a changing landscape
+  - Design for resilience
+  - Design for recovery
 
 Articles:
 
